@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="bg" style="flex-grow: 1; background-color: rgba(255, 255, 255, 0.5);">
+        <ui:Label tabindex="-1" text="Paused" display-tooltip-when-elided="true" name="Header" style="font-size: 48px; color: rgb(0, 0, 0); -unity-text-align: upper-center; position: absolute; align-self: center; top: 40%;" />
+        <ui:Button text="Resume" display-tooltip-when-elided="true" name="Resume" style="align-self: center; width: 200px; height: 40px; position: absolute; top: 60%; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;" />
+    </ui:VisualElement>
+</ui:UXML>

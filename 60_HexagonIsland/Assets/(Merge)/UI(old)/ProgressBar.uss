@@ -1,0 +1,7 @@
+.PollutionBar {
+    transition-property: all;
+    transition-duration: 0s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    color: rgb(27, 27, 27);
+}

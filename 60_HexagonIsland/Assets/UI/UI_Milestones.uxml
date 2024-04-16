@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Milestone.uss?fileID=7433441132597879392&amp;guid=442baba9adf2501479cdfe1d4a11aa25&amp;type=3#Milestone" />
+    <ui:VisualElement style="flex-grow: 1; width: 50%; height: 65%; align-items: stretch; justify-content: flex-start; align-self: center; background-color: rgba(0, 0, 0, 0.62); position: absolute; top: 110px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;">
+        <ui:Label tabindex="-1" text="Milestones Rewards" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; color: rgb(255, 255, 255); font-size: 40px; -unity-font-style: bold; background-color: rgba(0, 0, 0, 0.36);" />
+        <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="Story" style="color: rgb(255, 255, 255); font-size: 18px; white-space: normal;" />
+        <ui:VisualElement name="Menu" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); white-space: nowrap; flex-wrap: nowrap; flex-direction: row; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,74 @@
+// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+RWTexture2D<float4> Result;
+
+RWStructuredBuffer<float4> positions;
+
+float Resolution;
+
+int Count;
+
+float SDFScale;
+
+
+
+float2 RotateVector30(float2 vec2)
+{
+    float cos30 = 0.8660254;
+    float sin30 = 0.5;
+    
+    float vec2x = (vec2.x * cos30) - (vec2.y * sin30);
+    float vec2y = (vec2.x * sin30) + (vec2.y * cos30);
+    
+    float2 result = float2(vec2x, vec2y);
+    return result;
+}
+
+float HexagonSDF(float2 xy, float2 pos, float r)
+{
+    float3 k = float3(-0.866025404, 0.5, 0.577350269);
+    xy = RotateVector30(xy - pos);
+    xy = abs(xy);
+    xy -= 2.0 * min(dot(k.xy, xy), 0.0) * k.xy;
+    xy -= float2(clamp(xy.x, -k.z * r, k.z * r), r);
+
+    return length(xy) * sign(xy.y);
+
+}
+
+float mapRange(float value, float fromMin, float fromMax, float toMin, float toMax)
+{
+    float result = ((value - fromMin) * (toMax - toMin) / (fromMax - fromMin)) + toMin;
+    return result;
+}
+
+
+[numthreads(8,8,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+    
+    float x = (id.x / Resolution)-0.5;
+    float y = (id.y / Resolution)-0.5;
+    
+    float2 xy = float2(x, y);
+    
+    float HexaSDF = 0.0;
+    
+    float SDFDistance = 1.0;
+    
+    
+    for (int i = 0; i < Count; i++)
+    {
+        HexaSDF = HexagonSDF(xy, positions[i].xz * 0.025, 0.8660254*0.025);
+
+        SDFDistance = min(HexaSDF, SDFDistance);
+        //SDFDistance = smin(HexaSDF, SDFDistance, 0.5);
+    }
+
+    SDFDistance = mapRange(SDFDistance, 0.0, 0.2, 0, 1);
+    
+    Result[id.xy] = float4(SDFDistance, SDFDistance, SDFDistance, 0.0);
+}

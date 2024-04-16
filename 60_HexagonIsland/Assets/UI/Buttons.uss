@@ -1,0 +1,74 @@
+.BuildingsButton {
+    position: relative;
+    bottom: 5px;
+    left: auto;
+    right: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    width: 90px;
+    height: 90px;
+    top: auto;
+    align-items: stretch;
+    align-self: auto;
+    background-image: url('project://database/Assets/UI/Icons/DefaultButton.png?fileID=2800000&guid=c53aae2fa7eafb24cad44d002f084df4&type=3#DefaultButton');
+    background-color: rgba(188, 188, 188, 0);
+    overflow: visible;
+}
+
+.InventoryCount {
+    bottom: -43px;
+    -unity-text-align: middle-center;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    align-self: auto;
+    right: -32px;
+    background-image: url('project://database/Assets/UI/Icons/DefaultButton.png?fileID=2800000&guid=c53aae2fa7eafb24cad44d002f084df4&type=3#DefaultButton');
+    scale: 1 1;
+    -unity-slice-scale: 1px;
+    -unity-background-scale-mode: scale-to-fit;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    font-size: 18px;
+}
+
+.Tooltip {
+    justify-content: flex-start;
+    align-self: center;
+    bottom: 140px;
+    top: auto;
+    left: auto;
+    overflow: visible;
+    background-color: rgba(255, 255, 255, 0.72);
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    -unity-font-style: bold;
+    -unity-text-align: upper-left;
+    text-shadow: 1.2px 1.2px 1.7px rgba(0, 0, 0, 0);
+    -unity-text-outline-color: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 150px;
+    max-height: none;
+    height: 80px;
+    font-size: 12px;
+}

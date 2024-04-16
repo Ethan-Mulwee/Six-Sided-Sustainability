@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Box" style="flex-grow: 1; width: 22%; height: 38%; position: absolute; top: 24%; left: auto; right: auto; bottom: auto; align-items: auto; align-self: center; justify-content: flex-start; background-color: rgba(255, 255, 255, 0.35); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
+        <ui:Label tabindex="-1" text="Credits" display-tooltip-when-elided="true" name="Header" style="align-self: center; -unity-font-style: bold; font-size: 18px;" />
+        <ui:Label tabindex="-1" text="Ethan Mulwee" display-tooltip-when-elided="true" name="Ethan" style="align-self: center; font-size: 41px;" />
+        <ui:Label tabindex="-1" text="Jayden Foose" display-tooltip-when-elided="true" name="Jayden" style="align-self: center; font-size: 41px;" />
+        <ui:Label tabindex="-1" text="Frank O&apos;Neill" display-tooltip-when-elided="true" name="Frank" style="align-self: center; font-size: 41px;" />
+        <ui:VisualElement style="flex-grow: 1;" />
+        <ui:Button text="Close" display-tooltip-when-elided="true" name="Close" style="align-self: center; align-items: auto;" />
+    </ui:VisualElement>
+</ui:UXML>

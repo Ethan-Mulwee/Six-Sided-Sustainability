@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(255, 255, 255, 0.55);">
+        <ui:Label tabindex="-1" text="6-SIDED SUSTAINABILITY" display-tooltip-when-elided="true" name="Title" style="-unity-font-style: bold; font-size: 40px; align-items: center; justify-content: flex-start; align-self: center; height: 90px; -unity-text-align: middle-left; top: 100px;" />
+        <ui:Button text="Play" display-tooltip-when-elided="true" name="Play" style="font-size: 14px; width: 100px; height: 30px; top: 100px; left: auto; right: auto; bottom: auto; align-items: center; align-self: center;" />
+        <ui:Button text="Settings" display-tooltip-when-elided="true" name="Settings" style="font-size: 14px; width: 100px; height: 30px; top: 100px; left: auto; right: auto; bottom: auto; align-items: center; align-self: center;" />
+        <ui:Button text="Credits" display-tooltip-when-elided="true" name="Credits" style="font-size: 14px; width: 100px; height: 30px; top: 100px; left: auto; right: auto; bottom: auto; align-items: center; align-self: center;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(255, 255, 255, 0.5); width: 800px; align-self: center; height: 400px; position: absolute; top: 100px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;">
+        <ui:Label tabindex="-1" text="Settings" display-tooltip-when-elided="true" name="Settings" style="-unity-text-align: upper-center; font-size: 60px;" />
+        <ui:Slider label="Volume&#10;" value="50" high-value="100" name="Volume" style="height: 75px; font-size: 24px; -unity-text-align: middle-left;" />
+        <ui:Slider label="Mouse&#10;Sensitivity" value="50" high-value="100" name="MSensitivity" style="height: 75px; font-size: 24px; -unity-text-align: middle-left;" />
+        <ui:Slider label="Scroll&#10;Sensitivity" value="50" high-value="100" name="SSensitivity" style="height: 75px; font-size: 24px; -unity-text-align: middle-left;" />
+        <ui:Button text="Close" display-tooltip-when-elided="true" name="Close" style="width: 100px; white-space: nowrap; -unity-text-align: middle-center; align-items: auto; left: 10px;" />
+    </ui:VisualElement>
+</ui:UXML>

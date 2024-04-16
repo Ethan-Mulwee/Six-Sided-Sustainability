@@ -1,0 +1,266 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baa42b81229445248b16f1f68b03b5c2, type: 3}
+  m_Name: Structures
+  m_EditorClassIdentifier: 
+  Structures:
+  - <StructureID>k__BackingField: 0
+    <Name>k__BackingField: Ground
+    <Prefabs>k__BackingField: []
+    <InhereitRotation>k__BackingField: 0
+    <DeleteTrees>k__BackingField: 0
+    <Inventory>k__BackingField: 0
+    UI:
+      CreateUI: 0
+      ButtonName: 
+      Tooltip: 
+      <ButtonIconDefault>k__BackingField: {fileID: 0}
+      <ButtonIconHover>k__BackingField: {fileID: 0}
+      <ButtonIconSelected>k__BackingField: {fileID: 0}
+    attributes:
+      <Type>k__BackingField: 0
+      <PlacementCost>k__BackingField: 0
+      <ConstructionTime>k__BackingField: 0
+      <PointsGenerated>k__BackingField: 0
+      <ResidentalNeighborPoints>k__BackingField: 0
+      <OfficeNeighborPoints>k__BackingField: 0
+      <PowerGenerated>k__BackingField: 0
+      <PowerConsumed>k__BackingField: 0
+      <NeighborPowerBonus>k__BackingField: 0
+      <GeneratesPollution>k__BackingField: 0
+      <PollutionGenerated>k__BackingField: 0
+      <NeighborPollutionBonus>k__BackingField: 0
+      <CoalNeighborPollution>k__BackingField: 0
+  - <StructureID>k__BackingField: 1
+    <Name>k__BackingField: House
+    <Prefabs>k__BackingField:
+    - {fileID: 1209590890151467418, guid: 61cf9ba4ed4957048b608311f21a78d1, type: 3}
+    <InhereitRotation>k__BackingField: 0
+    <DeleteTrees>k__BackingField: 1
+    <Inventory>k__BackingField: 3
+    UI:
+      CreateUI: 1
+      ButtonName: HouseButton
+      Tooltip: House \n +5 Points \n -10 Power \n 1 Pollution
+      <ButtonIconDefault>k__BackingField: {fileID: 2800000, guid: ae9072d340a5c464982ac616e2eb1b6d, type: 3}
+      <ButtonIconHover>k__BackingField: {fileID: 2800000, guid: 91cda8501088f3a4ea463b25f3aaa2a1, type: 3}
+      <ButtonIconSelected>k__BackingField: {fileID: 2800000, guid: 4b53dc77470ac3f4dbbaea2198188440, type: 3}
+    attributes:
+      <Type>k__BackingField: 1
+      <PlacementCost>k__BackingField: 0
+      <ConstructionTime>k__BackingField: 0
+      <PointsGenerated>k__BackingField: 5
+      <ResidentalNeighborPoints>k__BackingField: 1
+      <OfficeNeighborPoints>k__BackingField: 0
+      <PowerGenerated>k__BackingField: 0
+      <PowerConsumed>k__BackingField: 10
+      <NeighborPowerBonus>k__BackingField: 0
+      <GeneratesPollution>k__BackingField: 0
+      <PollutionGenerated>k__BackingField: 1
+      <NeighborPollutionBonus>k__BackingField: 0
+      <CoalNeighborPollution>k__BackingField: 0
+  - <StructureID>k__BackingField: 2
+    <Name>k__BackingField: Wind Turbine (Power)
+    <Prefabs>k__BackingField:
+    - {fileID: 702063592451090210, guid: 679e6c616c9418341a582434e678dcb0, type: 3}
+    <InhereitRotation>k__BackingField: 0
+    <DeleteTrees>k__BackingField: 0
+    <Inventory>k__BackingField: 2
+    UI:
+      CreateUI: 1
+      ButtonName: WindmillButton
+      Tooltip: Wind Turbine \n Generates 10 power
+      <ButtonIconDefault>k__BackingField: {fileID: 2800000, guid: 83745feb4f8c6954daea2a3b91344fce, type: 3}
+      <ButtonIconHover>k__BackingField: {fileID: 2800000, guid: e434a7a69868c4d4193cd0c5a0d51776, type: 3}
+      <ButtonIconSelected>k__BackingField: {fileID: 2800000, guid: 7986e9f98e38d38429338960082216aa, type: 3}
+    attributes:
+      <Type>k__BackingField: 3
+      <PlacementCost>k__BackingField: 0
+      <ConstructionTime>k__BackingField: 0
+      <PointsGenerated>k__BackingField: 0
+      <ResidentalNeighborPoints>k__BackingField: 0
+      <OfficeNeighborPoints>k__BackingField: 0
+      <PowerGenerated>k__BackingField: 10
+      <PowerConsumed>k__BackingField: 0
+      <NeighborPowerBonus>k__BackingField: 0
+      <GeneratesPollution>k__BackingField: 0
+      <PollutionGenerated>k__BackingField: 0
+      <NeighborPollutionBonus>k__BackingField: 0
+      <CoalNeighborPollution>k__BackingField: 0
+  - <StructureID>k__BackingField: 3
+    <Name>k__BackingField: Solar Panels
+    <Prefabs>k__BackingField:
+    - {fileID: 5559019553631487096, guid: 7a5e325714dc0ad43be090c9f12e61ec, type: 3}
+    <InhereitRotation>k__BackingField: 0
+    <DeleteTrees>k__BackingField: 1
+    <Inventory>k__BackingField: 0
+    UI:
+      CreateUI: 1
+      ButtonName: SolarPanels
+      Tooltip: Solar Panels \n Generates 7 power
+      <ButtonIconDefault>k__BackingField: {fileID: 2800000, guid: 82b78378d78ee1d43b126f3643b4b874, type: 3}
+      <ButtonIconHover>k__BackingField: {fileID: 2800000, guid: 32bee12addaf66142a3aa7d0f68fec1a, type: 3}
+      <ButtonIconSelected>k__BackingField: {fileID: 2800000, guid: 940ac6ab75218254385995399a838479, type: 3}
+    attributes:
+      <Type>k__BackingField: 3
+      <PlacementCost>k__BackingField: 0
+      <ConstructionTime>k__BackingField: 0
+      <PointsGenerated>k__BackingField: 0
+      <ResidentalNeighborPoints>k__BackingField: 0
+      <OfficeNeighborPoints>k__BackingField: 0
+      <PowerGenerated>k__BackingField: 7
+      <PowerConsumed>k__BackingField: 0
+      <NeighborPowerBonus>k__BackingField: 0
+      <GeneratesPollution>k__BackingField: 0
+      <PollutionGenerated>k__BackingField: 0
+      <NeighborPollutionBonus>k__BackingField: 0
+      <CoalNeighborPollution>k__BackingField: 0
+  - <StructureID>k__BackingField: 4
+    <Name>k__BackingField: Trees
+    <Prefabs>k__BackingField:
+    - {fileID: 8076384098644221227, guid: 60f52d28070012c448f493f4b98ce3ca, type: 3}
+    <InhereitRotation>k__BackingField: 0
+    <DeleteTrees>k__BackingField: 1
+    <Inventory>k__BackingField: 1
+    UI:
+      CreateUI: 1
+      ButtonName: TreesButton
+      Tooltip: Park \n Generates more \n points when placed \n next to houses
+      <ButtonIconDefault>k__BackingField: {fileID: 2800000, guid: 470734fecb346d34d98ac9ab26737b0e, type: 3}
+      <ButtonIconHover>k__BackingField: {fileID: 2800000, guid: 67a08bc264106e6458ae5dfae256b812, type: 3}
+      <ButtonIconSelected>k__BackingField: {fileID: 2800000, guid: 0896487a3302a72469715bf990408d9c, type: 3}
+    attributes:
+      <Type>k__BackingField: 5
+      <PlacementCost>k__BackingField: 0
+      <ConstructionTime>k__BackingField: 0
+      <PointsGenerated>k__BackingField: 0
+      <ResidentalNeighborPoints>k__BackingField: 1
+      <OfficeNeighborPoints>k__BackingField: 0
+      <PowerGenerated>k__BackingField: 0
+      <PowerConsumed>k__BackingField: 0
+      <NeighborPowerBonus>k__BackingField: 0
+      <GeneratesPollution>k__BackingField: 0
+      <PollutionGenerated>k__BackingField: -1
+      <NeighborPollutionBonus>k__BackingField: -1
+      <CoalNeighborPollution>k__BackingField: 0
+  - <StructureID>k__BackingField: 5
+    <Name>k__BackingField: Skyscaper
+    <Prefabs>k__BackingField:
+    - {fileID: 3584367972717190324, guid: d9cdf29b962237049bae157fb2035fa9, type: 3}
+    <InhereitRotation>k__BackingField: 0
+    <DeleteTrees>k__BackingField: 1
+    <Inventory>k__BackingField: 0
+    UI:
+      CreateUI: 1
+      ButtonName: SkyscaperButton
+      Tooltip: Skyscraper \n Consumes 30 power \n Generates 10 points
+      <ButtonIconDefault>k__BackingField: {fileID: 2800000, guid: f7617542cfacdf549b1431414c51be18, type: 3}
+      <ButtonIconHover>k__BackingField: {fileID: 2800000, guid: 11b1d54de73901d4cb040500ce2e3a36, type: 3}
+      <ButtonIconSelected>k__BackingField: {fileID: 2800000, guid: 905734c7c02a006478a7bff88507107a, type: 3}
+    attributes:
+      <Type>k__BackingField: 1
+      <PlacementCost>k__BackingField: 0
+      <ConstructionTime>k__BackingField: 0
+      <PointsGenerated>k__BackingField: 10
+      <ResidentalNeighborPoints>k__BackingField: 0
+      <OfficeNeighborPoints>k__BackingField: 0
+      <PowerGenerated>k__BackingField: 0
+      <PowerConsumed>k__BackingField: 50
+      <NeighborPowerBonus>k__BackingField: 0
+      <GeneratesPollution>k__BackingField: 0
+      <PollutionGenerated>k__BackingField: 0
+      <NeighborPollutionBonus>k__BackingField: 0
+      <CoalNeighborPollution>k__BackingField: 0
+  - <StructureID>k__BackingField: 6
+    <Name>k__BackingField: Farm
+    <Prefabs>k__BackingField:
+    - {fileID: 3584367972717190324, guid: d9cdf29b962237049bae157fb2035fa9, type: 3}
+    <InhereitRotation>k__BackingField: 0
+    <DeleteTrees>k__BackingField: 1
+    <Inventory>k__BackingField: 0
+    UI:
+      CreateUI: 0
+      ButtonName: HouseButton
+      Tooltip: 
+      <ButtonIconDefault>k__BackingField: {fileID: 0}
+      <ButtonIconHover>k__BackingField: {fileID: 0}
+      <ButtonIconSelected>k__BackingField: {fileID: 0}
+    attributes:
+      <Type>k__BackingField: 1
+      <PlacementCost>k__BackingField: 0
+      <ConstructionTime>k__BackingField: 0
+      <PointsGenerated>k__BackingField: 0
+      <ResidentalNeighborPoints>k__BackingField: 0
+      <OfficeNeighborPoints>k__BackingField: 0
+      <PowerGenerated>k__BackingField: 0
+      <PowerConsumed>k__BackingField: 0
+      <NeighborPowerBonus>k__BackingField: 0
+      <GeneratesPollution>k__BackingField: 0
+      <PollutionGenerated>k__BackingField: 0
+      <NeighborPollutionBonus>k__BackingField: 0
+      <CoalNeighborPollution>k__BackingField: 0
+  - <StructureID>k__BackingField: 7
+    <Name>k__BackingField: Coal
+    <Prefabs>k__BackingField:
+    - {fileID: 8127462832177590046, guid: 475afb9d2ca9b6c4b814b0d40b59943a, type: 3}
+    <InhereitRotation>k__BackingField: 0
+    <DeleteTrees>k__BackingField: 1
+    <Inventory>k__BackingField: 0
+    UI:
+      CreateUI: 1
+      ButtonName: CoalButton
+      Tooltip: Coal Powerplant \n Generates 40 power \n Generates 10 pollution
+      <ButtonIconDefault>k__BackingField: {fileID: 2800000, guid: 5c39064e38cfefb44815150093f08831, type: 3}
+      <ButtonIconHover>k__BackingField: {fileID: 2800000, guid: 7bcbcd7098e118147a1f6c0c7c8e8468, type: 3}
+      <ButtonIconSelected>k__BackingField: {fileID: 2800000, guid: 44f739f8d7ec4af488c7db6c887103ab, type: 3}
+    attributes:
+      <Type>k__BackingField: 4
+      <PlacementCost>k__BackingField: 0
+      <ConstructionTime>k__BackingField: 0
+      <PointsGenerated>k__BackingField: 0
+      <ResidentalNeighborPoints>k__BackingField: -2
+      <OfficeNeighborPoints>k__BackingField: 0
+      <PowerGenerated>k__BackingField: 40
+      <PowerConsumed>k__BackingField: 0
+      <NeighborPowerBonus>k__BackingField: 0
+      <GeneratesPollution>k__BackingField: 1
+      <PollutionGenerated>k__BackingField: 10
+      <NeighborPollutionBonus>k__BackingField: 0
+      <CoalNeighborPollution>k__BackingField: 0
+  - <StructureID>k__BackingField: 8
+    <Name>k__BackingField: CarbonCapture
+    <Prefabs>k__BackingField:
+    - {fileID: 1318316597417546581, guid: b6a66259e0e6db94c872f939495832a1, type: 3}
+    <InhereitRotation>k__BackingField: 0
+    <DeleteTrees>k__BackingField: 1
+    <Inventory>k__BackingField: 0
+    UI:
+      CreateUI: 1
+      ButtonName: CarbonCaptureButton
+      Tooltip: Carbon Capture \n Captures 5 pollution \n Consumes 15 power
+      <ButtonIconDefault>k__BackingField: {fileID: 2800000, guid: 9334b5bdab18164418ca77cd99eac893, type: 3}
+      <ButtonIconHover>k__BackingField: {fileID: 2800000, guid: 9334b5bdab18164418ca77cd99eac893, type: 3}
+      <ButtonIconSelected>k__BackingField: {fileID: 2800000, guid: 9334b5bdab18164418ca77cd99eac893, type: 3}
+    attributes:
+      <Type>k__BackingField: 5
+      <PlacementCost>k__BackingField: 0
+      <ConstructionTime>k__BackingField: 0
+      <PointsGenerated>k__BackingField: 0
+      <ResidentalNeighborPoints>k__BackingField: -2
+      <OfficeNeighborPoints>k__BackingField: 0
+      <PowerGenerated>k__BackingField: 0
+      <PowerConsumed>k__BackingField: 15
+      <NeighborPowerBonus>k__BackingField: 0
+      <GeneratesPollution>k__BackingField: 1
+      <PollutionGenerated>k__BackingField: -5
+      <NeighborPollutionBonus>k__BackingField: -3
+      <CoalNeighborPollution>k__BackingField: 0

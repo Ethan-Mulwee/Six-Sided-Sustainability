@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: d09419cb268ece9409b9789b2b777a8a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - hexagonPrefab1_Mountain: {instanceID: 0}
+  - hexagonPrefab2_Field: {instanceID: 0}
+  - TreeType1_1: {instanceID: 0}
+  - TreeType1_2: {instanceID: 0}
+  - TreeType1_3: {instanceID: 0}
+  - TreeType2_1: {instanceID: 0}
+  - TreeType2_2: {instanceID: 0}
+  - WaterShader: {instanceID: 0}
+  - computeShader: {instanceID: 0}
+  - renderTexture: {fileID: 8400000, guid: a64354db79e8226439d998f7d0566bf6, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

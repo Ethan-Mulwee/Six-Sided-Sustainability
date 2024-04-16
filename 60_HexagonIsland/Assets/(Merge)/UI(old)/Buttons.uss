@@ -1,0 +1,25 @@
+.BuildingsButton {
+    position: relative;
+    bottom: 5px;
+    left: auto;
+    right: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    width: 90px;
+    height: 90px;
+    top: auto;
+    align-items: stretch;
+    align-self: auto;
+    background-image: url('project://database/Assets/UI/Icons/47_HouseButton.png?fileID=2800000&guid=ae9072d340a5c464982ac616e2eb1b6d&type=3#47_HouseButton');
+    background-color: rgba(188, 188, 188, 0);
+}

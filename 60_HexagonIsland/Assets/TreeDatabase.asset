@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15b4d32c274ebdf489807cfc312c1926, type: 3}
+  m_Name: TreeDatabase
+  m_EditorClassIdentifier: 
+  treesData:
+  - <Name>k__BackingField: 
+    <Prefab>k__BackingField: {fileID: 3185649465682130364, guid: 8c8fcd7fe9637a84daf28180112733f9, type: 3}
+    <Type>k__BackingField: 0
+  - <Name>k__BackingField: 
+    <Prefab>k__BackingField: {fileID: 6711610102962493887, guid: f0d588549c6433d46b281671665cdf2f, type: 3}
+    <Type>k__BackingField: 0
+  - <Name>k__BackingField: 
+    <Prefab>k__BackingField: {fileID: 4416093478694289352, guid: 60dc6b50724f3d043a80a801feead91b, type: 3}
+    <Type>k__BackingField: 0
+  - <Name>k__BackingField: 
+    <Prefab>k__BackingField: {fileID: 7666205906791468761, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
+    <Type>k__BackingField: 1

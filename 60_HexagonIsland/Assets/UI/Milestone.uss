@@ -1,0 +1,57 @@
+.MilestoneButton {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+}
+
+.TestStyle {
+    flex-grow: 1;
+    flex-direction: column-reverse;
+    width: 33.33%;
+    overflow: hidden;
+}
+
+.MilestoneButton {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+}
+
+.Description {
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    -unity-text-align: upper-center;
+    white-space: normal;
+    position: relative;
+    visibility: visible;
+    overflow: hidden;
+    flex-wrap: nowrap;
+}
+
+.Title {
+    font-size: 34px;
+    -unity-font-style: bold;
+    -unity-text-align: upper-center;
+    color: rgb(255, 255, 255);
+}
+
+.Image {
+    flex-grow: 1;
+    width: 250px;
+    background-image: url('project://database/Assets/UI/Icons/47_HouseButton.png?fileID=2800000&guid=ae9072d340a5c464982ac616e2eb1b6d&type=3#47_HouseButton');
+    align-items: center;
+    align-self: center;
+    height: 250px;
+    justify-content: center;
+    max-height: 250px;
+}
