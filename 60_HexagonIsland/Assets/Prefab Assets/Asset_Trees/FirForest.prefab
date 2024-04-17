@@ -9,10 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3784114847598121377}
-  - component: {fileID: 8170690965644922696}
   m_Layer: 0
   m_Name: FirForest
-  m_TagString: Untagged
+  m_TagString: Structure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,18 +44,6 @@ Transform:
   - {fileID: 424955029936965093}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8170690965644922696
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2277077865118148182}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 262e6fbd86df6114cb501f61d6fbd042, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &382408092525105667
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -120,6 +107,10 @@ PrefabInstance:
     - target: {fileID: 7666205906791468761, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
       propertyPath: m_Name
       value: 50_FirTree (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7666205906791468761, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -4423115004499435825, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
@@ -196,6 +187,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 50_FirTree (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7666205906791468761, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -4423115004499435825, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
     m_RemovedGameObjects: []
@@ -270,6 +265,10 @@ PrefabInstance:
     - target: {fileID: 7666205906791468761, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
       propertyPath: m_Name
       value: 50_FirTree (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7666205906791468761, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -4423115004499435825, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
@@ -346,6 +345,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 50_FirTree (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7666205906791468761, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -4423115004499435825, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
     m_RemovedGameObjects: []
@@ -420,6 +423,10 @@ PrefabInstance:
     - target: {fileID: 7666205906791468761, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
       propertyPath: m_Name
       value: 50_FirTree (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7666205906791468761, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -4423115004499435825, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
@@ -496,6 +503,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 50_FirTree (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7666205906791468761, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -4423115004499435825, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
     m_RemovedGameObjects: []
@@ -570,6 +581,10 @@ PrefabInstance:
     - target: {fileID: 7666205906791468761, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
       propertyPath: m_Name
       value: 50_FirTree (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7666205906791468761, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -4423115004499435825, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
@@ -646,6 +661,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 50_FirTree (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 7666205906791468761, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -4423115004499435825, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
     m_RemovedGameObjects: []
@@ -712,6 +731,10 @@ PrefabInstance:
     - target: {fileID: 7666205906791468761, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
       propertyPath: m_Name
       value: 50_FirTree
+      objectReference: {fileID: 0}
+    - target: {fileID: 7666205906791468761, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -4423115004499435825, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
@@ -788,6 +811,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 50_FirTree (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7666205906791468761, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -4423115004499435825, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
     m_RemovedGameObjects: []
@@ -862,6 +889,10 @@ PrefabInstance:
     - target: {fileID: 7666205906791468761, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
       propertyPath: m_Name
       value: 50_FirTree (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7666205906791468761, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -4423115004499435825, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
@@ -938,6 +969,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 50_FirTree (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7666205906791468761, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -4423115004499435825, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
     m_RemovedGameObjects: []
@@ -1012,6 +1047,10 @@ PrefabInstance:
     - target: {fileID: 7666205906791468761, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
       propertyPath: m_Name
       value: 50_FirTree (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7666205906791468761, guid: e383d85f3290ba044975b9fc541cf217, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -4423115004499435825, guid: e383d85f3290ba044975b9fc541cf217, type: 3}

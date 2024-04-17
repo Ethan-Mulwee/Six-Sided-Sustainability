@@ -68,28 +68,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: 45_02_Tree.002
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c89a8bdb099392439839680ed9b9057, type: 3}
+      propertyPath: m_TagString
+      value: Structure
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1c89a8bdb099392439839680ed9b9057, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: -8360893093329744821}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c89a8bdb099392439839680ed9b9057, type: 3}
---- !u!1 &8462366777864647055 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1c89a8bdb099392439839680ed9b9057, type: 3}
-  m_PrefabInstance: {fileID: 8768847598090800350}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &-8360893093329744821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8462366777864647055}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 262e6fbd86df6114cb501f61d6fbd042, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

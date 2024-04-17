@@ -4,16 +4,20 @@ using UnityEngine;
 
 public static class ExtensionMethods
 {
+    public static void DestroyTaggedChildren(this GameObject Parent, string Tag)
+    {
+        for (int i = 0; i < Parent.transform.childCount; i++) 
+        {
+            var Child = Parent.transform.GetChild(i);
+            if (Child.gameObject.tag == Tag) Object.Destroy(Child.gameObject);
+        }
+    }
     public static void DestroyChildren(this GameObject Parent)
     {
         for (int i = 0; i < Parent.transform.childCount; i++)
         {
-            var Children = Parent.transform.GetChild(i);
-            // Check if child has a destory component, if it does call it
-            if (Children.TryGetComponent(out ObjectScript ObjectScript))
-            {
-                ObjectScript.DestoryObject();
-            }
+            var Child = Parent.transform.GetChild(i);
+            Object.Destroy(Child.gameObject);
         }
     }
     public static void EnabledChildrenRenderers(this GameObject Parent, bool Boolean)

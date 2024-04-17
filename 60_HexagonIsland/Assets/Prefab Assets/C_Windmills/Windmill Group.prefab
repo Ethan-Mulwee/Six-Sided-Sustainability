@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6910061367596614644}
-  - component: {fileID: 1013524639195426270}
   m_Layer: 0
   m_Name: Windmill Group
   m_TagString: Untagged
@@ -35,19 +34,6 @@ Transform:
   - {fileID: 8708276185814769825}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1013524639195426270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 702063592451090210}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 262e6fbd86df6114cb501f61d6fbd042, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ObjectID: 1
 --- !u!1001 &3193272752995061051
 PrefabInstance:
   m_ObjectHideFlags: 0

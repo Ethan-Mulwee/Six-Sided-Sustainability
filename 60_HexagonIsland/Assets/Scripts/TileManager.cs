@@ -355,7 +355,7 @@ public class Tile : MonoBehaviour
     }
     public void UpdateTile()
     {
-        gameObject.DestroyChildren();
+        gameObject.DestroyTaggedChildren("Destroy");
         switch (TileType)
         {
             case 1:
