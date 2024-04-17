@@ -14,16 +14,14 @@ public class Milestones : MonoBehaviour
 
     public void GenerateMilestones()
     {
-        Debug.Log("Milestone Generated");
         VisualElement root = milestones.GetComponent<UIDocument>().rootVisualElement;
         VisualElement Menu = root.Q<VisualElement>("Menu");
         for ( int i = 0; i < 3 ; i++ )
         {
             var RandomMilestone = Random.Range(0, milestonesSO.milestones.Count);
-            Debug.Log(RandomMilestone);
             VisualElement Milestone = new VisualElement();
-            Debug.Log("Created new VisualElement");
             Milestone.AddToClassList("TestStyle");
+
             Button button = new Button();
             button.AddToClassList("MilestoneButton");
             button.text = milestonesSO.milestones[RandomMilestone].Title;
@@ -64,7 +62,6 @@ public class Milestones : MonoBehaviour
                 
             };
             Milestone.Add(button);
-            Debug.Log("Button Added");
 
             Label Description = new Label();
             Description.AddToClassList("Description");
@@ -83,7 +80,6 @@ public class Milestones : MonoBehaviour
 
 
             Menu.Add(Milestone);
-            Debug.Log("Added Milestone");
         }
         switch (Milestonecount)
         {
