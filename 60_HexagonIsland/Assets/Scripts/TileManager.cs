@@ -262,7 +262,7 @@ public class Tile : MonoBehaviour
     public float Use = 0;
     public int PointProduction;
     public float PollutionProduction;
-
+    
     private float timer = 0f;
     private void Update()
     {
