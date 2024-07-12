@@ -84,30 +84,30 @@ public class IslandGenerator : MonoBehaviour
     }
 
 
-    //public void CalculateSDF()
-    //{
-    //    for (int i = 0; i < positions.Count; i++)
-    //    {
-    //        if (DistortedPositions[i].magnitude < islandSize)
-    //        {
-    //            computePositions.Add(new Vector4(positions[i].x, positions[i].y, positions[i].z, 0));
-    //        }
-    //    }
-    //    Debug.Log("Real Positions: " + computePositions.Count);
-    //    Debug.Log("Calculated Positions: " + positions.Count);
-    //    var size = sizeof(float) * 4;
-    //    ComputeBuffer PositionsBuffer = new ComputeBuffer(computePositions.Count, size);
-    //    PositionsBuffer.SetData(computePositions);
+    public void CalculateSDF()
+    {
+       for (int i = 0; i < positions.Count; i++)
+       {
+           if (DistortedPositions[i].magnitude < islandSize)
+           {
+               computePositions.Add(new Vector4(positions[i].x, positions[i].y, positions[i].z, 0));
+           }
+       }
+       Debug.Log("Real Positions: " + computePositions.Count);
+       Debug.Log("Calculated Positions: " + positions.Count);
+       var size = sizeof(float) * 4;
+       ComputeBuffer PositionsBuffer = new ComputeBuffer(computePositions.Count, size);
+       PositionsBuffer.SetData(computePositions);
 
 
-    //    computeShader.SetInt("Count", computePositions.Count);
-    //    computeShader.SetBuffer(0, "positions", PositionsBuffer);
-    //    computeShader.SetFloat("Resolution", renderTexture.width);
-    //    computeShader.SetTexture(0, "Result", renderTexture);
-    //    computeShader.Dispatch(0, renderTexture.width / 8, renderTexture.height / 8, 1);
+       computeShader.SetInt("Count", computePositions.Count);
+       computeShader.SetBuffer(0, "positions", PositionsBuffer);
+       computeShader.SetFloat("Resolution", renderTexture.width);
+       computeShader.SetTexture(0, "Result", renderTexture);
+       computeShader.Dispatch(0, renderTexture.width / 8, renderTexture.height / 8, 1);
 
-    //    PositionsBuffer.Dispose();
-    //}
+       PositionsBuffer.Dispose();
+    }
 
     private void Start()
     {
@@ -130,9 +130,9 @@ public class IslandGenerator : MonoBehaviour
 
 
         //Intialize SDF renderTexture
-        //renderTexture = new RenderTexture(1024, 1024, 24);
-        //renderTexture.enableRandomWrite = true;
-        //renderTexture.Create();
+        renderTexture = new RenderTexture(1024, 1024, 24);
+        renderTexture.enableRandomWrite = true;
+        renderTexture.Create();
 
         seed = UnityEngine.Random.Range(0, 5000);
 
@@ -293,7 +293,7 @@ public class IslandGenerator : MonoBehaviour
                 }
             }
         }
-        //CalculateSDF();
+        CalculateSDF();
         WaterShader.SetTexture("_Texture2D", renderTexture);
         //IslandGenerated?.Invoke();
         TileManager.Instance.UpdateTiles();
