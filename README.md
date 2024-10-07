@@ -1,3 +1,3 @@
 # Game
 
-yup this is a read me
+A unity (buggy) and incomplete untiy game created as team and collective first unity project.
